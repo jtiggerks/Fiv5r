@@ -53,11 +53,11 @@
 
     <access origin="*" />
     <access origin="http://fiv5.viradinha.com.br//" />
-    <access origin="*.viradinha.com.br" />
+    <access origin="fiv5.viradinha.com.br" />
 
     <allow-intent href="http://*/*" />
     <allow-intent href="http://fiv5.viradinha.com.br/" />
-    <allow-navigation href="http://fiv5.viradinha.com.br//*" />
+    <allow-navigation href="http://www.fiv5.viradinha.com.br/*" />
 
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />

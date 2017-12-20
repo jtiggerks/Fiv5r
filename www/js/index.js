@@ -59,7 +59,7 @@ var app = {
     app.receivedEvent('deviceready');
 
     var urlfull= 'http://www.fiv5.viradinha.com.br/?idd='+device.uuid;
-    location.href = urlfull
+    location.href = urlfull;
 
     },receivedEvent: function(id)
     {
