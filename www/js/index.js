@@ -34,6 +34,13 @@ var app = {
         position : AdMob.AD_POSITION.BOTTOM_CENTER,
         autoShow : true
     });
+
+    AdMob.prepareInterstitial({
+        adId:'ca-app-pub-5465548746999423/2511105787', 
+        autoShow:true
+    });
+
+    
    
 
     var notificationOpenedCallback = function(jsonData)
