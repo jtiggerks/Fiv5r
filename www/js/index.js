@@ -29,17 +29,7 @@ var app = {
     },
     onDeviceReady: function() {
  
-    AdMob.createBanner({
-        adId : "ca-app-pub-5465548746999423/1523233840",
-        position : AdMob.AD_POSITION.BOTTOM_CENTER,
-        autoShow : true
-    });
-
-    AdMob.prepareInterstitial({
-        adId:'ca-app-pub-5465548746999423/2511105787', 
-        autoShow:true
-    });
-
+ 
     
    
 
@@ -60,9 +50,7 @@ var app = {
         .endInit(); 
 
 
- 
-    //AdMob.showBanner(AdMob.AD_POSITION.BOTTOM_CENTER);
-
+  
     app.receivedEvent('deviceready');
 
     var urlfull= 'http://www.canalfiv5.com.br/?idd='+device.uuid;
