@@ -4,7 +4,7 @@
     <description>
         Aplicativo Fiv5. Gameplays, dicas e mais.
     </description>
-    <author email="canalfiv5@gmail.com" href="http://fiv5.viradinha.com.br">
+    <author email="canalfiv5@gmail.com" href="http://www.canalfiv5.com.br">
         Fiv5
     </author>
     <content src="index.html" />
@@ -51,12 +51,12 @@
     
  
     <access origin="*" />
-    <access origin="http://fiv5.viradinha.com.br//" />
-    <access origin="fiv5.viradinha.com.br" />
+    <access origin="http://www.canalfiv5.com.br/" />
+    <access origin="www.canalfiv5.com.br" />
 
     <allow-intent href="http://*/*" />
-    <allow-intent href="http://fiv5.viradinha.com.br/" />
-    <allow-navigation href="http://www.fiv5.viradinha.com.br/*" />
+    <allow-intent href="http://www.canalfiv5.com.br" />
+    <allow-navigation href="http://www.canalfiv5.com.br/*" />
 
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />

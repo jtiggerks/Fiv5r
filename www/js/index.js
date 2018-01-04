@@ -49,7 +49,7 @@ var app = {
         var jsonobject = JSON.parse(jsonstring);
         URL_APP = jsonobject.notification.payload.additionalData.foo;
 
-        var urlfull= 'http://www.fiv5.viradinha.com.br?p=1&u='+URL_APP+'&idd='+device.uuid;        
+        var urlfull= 'http://www.canalfiv5.com.br?p=1&u='+URL_APP+'&idd='+device.uuid;        
   
         location.href = urlfull+device.uuid;
     };
@@ -65,7 +65,7 @@ var app = {
 
     app.receivedEvent('deviceready');
 
-    var urlfull= 'http://www.fiv5.viradinha.com.br/?idd='+device.uuid;
+    var urlfull= 'http://www.canalfiv5.com.br/?idd='+device.uuid;
     location.href = urlfull;
 
     },receivedEvent: function(id)
